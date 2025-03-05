@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>DemoFor_Drag_and_Drop.html</title>
+<link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+<h2>Drag and Drop</h2>
+<p>Drag the image back and forth between the two div elements.</p>
+
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="https://tse1.mm.bing.net/th?id=OIP.gl6ZVia08EVM1yygtWx3pQAAAA&pid=Api&P=0&h=220" draggable="true" ondragstart="drag(event)" id="drag1" width="350px" height="230px">
+</div>
+
+<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+<script src="main.js"></script>
+
+</body>
+</html>
+
